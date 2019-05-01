@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){ uploadphoto($id); }
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Find Your Perfect Partner - Makemylove
+<title>TraditionalMatrimony.com
  | Login :: Make My Love
 </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">

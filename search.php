@@ -14,7 +14,7 @@ $result=search();
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Find Your Perfect Partner - Makemylove
+<title>TraditionalMatrimony.com
  | Search :: Make My Love
 </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -87,9 +87,9 @@ $(document).ready(function(){
 	<div class="col-sm-7 form_radios">
 		<input type="checkbox" class="radio_1" name="maritalstatus" value="Single" <?php echo "checked" ?>/> Single &nbsp;&nbsp;
 		<input type="checkbox" class="radio_1" name="maritalstatus" value="divorced" /> Divorced &nbsp;&nbsp;
-		<input type="checkbox" class="radio_1" name="maritalstatus" value="widowed" /> Widowed &nbsp;&nbsp;
-		<input type="checkbox" class="radio_1" name="maritalstatus" value="seperated"/> Separated &nbsp;&nbsp;
-		<input type="checkbox" class="radio_1" name="maritalstatus" value="any" /> Any
+
+		<input type="checkbox" class="radio_1" name="maritalstatus" value="widowed" /> Widowed 
+
 	</div>
 	<div class="clearfix"> </div>
   </div>
@@ -99,19 +99,8 @@ $(document).ready(function(){
       <div class="select-block1">
         <select name="country">
             <option value="">Country</option>
-            <option value="Japan">Japan</option>
-            <option value="Kenya">Kenya</option>
-            <option value="Dubai">Dubai</option>
-            <option value="Italy">Italy</option>
-            <option value="Greece">Greece</option> 
-            <option value="Iceland">Iceland</option> 
-            <option value="China">China</option> 
             <option value="India">India</option> 
-            <option value="Irland">Irland</option> 
-            <option value="Srilanka">Srilanka</option> 
-            <option value="Russia">Russia</option> 
-            <option value="Hong Kong">Hong Kong</option> 
-            <option value="Germany">Germany</option>
+
           </select>
       </div>
     </div>
@@ -123,12 +112,22 @@ $(document).ready(function(){
       <div class="select-block1">
         <select name="district">
             <option value="">District / City</option>
-            <option value="Wayanad">Wayanad</option>
-            <option value="Calicut">Calicut</option>
-            <option value="Malappuram">Malappuram</option> 
-            <option value="Trivandrum">Trivandrum</option> 
-            <option value="Kannur">Kannur</option> 
-            <option value="Kasargode">Kasargode</option>
+            <option value="Trivandrum">Trivandrum</option>
+		                    <option value="Kollam">Kollam</option>
+		                    <option value="Pathanamthitta">Pathanamthitta</option>
+		                    <option value="Agra">Agra</option>
+												<option value="Allahabad">Allahabad</option>
+												<option value="Varanasi">Varanasi</option>
+												<option value="Faridabad">Faridabad</option>
+												<option value="Karnal">Karnal</option>
+												<option value="Hisar">Hisar</option>
+												<option value="Jaipur">Jaipur</option>
+												<option value="Kota">Kota</option>
+												<option value="Jodhpur">Jodhpur</option>
+												<option value="Hisar">Hisar</option>
+												<option value="Amritsar">Amritsar</option>
+												<option value="Patiala">Patiala</option>
+
         </select>
       </div>
     </div>
@@ -141,9 +140,13 @@ $(document).ready(function(){
         <select name="state">
             <option value="">State</option>
             <option value="Kerala">Kerala</option>
-            <option value="Tamilnadu">Tamilnadu</option>
-            <option value="Karnataka">Karnataka</option>
-            <option value="Madhyapradesh">Madhyapradesh</option>
+		                    <option value="Taminadu">Tamilnadu</option>
+		                    <option value="Karnataka">Karnataka</option>
+		                    <option value="Haryana">Haryana</option> 
+												<option value="Uttarpradesh">Uttarpradesh</option>
+												<option value="Punjab">Punjab</option>
+												<option value="Rajasthan">Rajasthan</option> 
+
         </select>
       </div>
     </div>
@@ -155,18 +158,13 @@ $(document).ready(function(){
       <div class="select-block1">
         <select name="religion">
             <option value="">Religion</option>
-            <option value="Hindu">Hindu</option>
-            <option value="Sikh">Sikh</option>
-            <option value="Jain-All">Jain-All</option>
-            <option value="Jain-Digambar">Jain-Digambar</option>
-            <option value="Jain-Others">Jain-Others</option>
-            <option value="Muslim-All">Muslim-All</option> 
-            <option value="Muslim-Shia">Muslim-Shia</option> 
-            <option value="Muslim-Sunni">Muslim-Sunni</option> 
-            <option value="Muslim-Others">Muslim-Others</option> 
-            <option value="Christian-All">Christian-All</option> 
-            <option value="Christian-Catholic">Christian-Catholic</option> 
-            <option value="Jewish">Jewish</option> 
+            <option value="Not Applicable">Not Applicable</option>
+		                    <option value="Hindu">Hindu</option>
+		                    <option value="Christian">Christian</option>
+		                    <option value="Muslim">Muslim</option>
+		                    <option value="Jain">Jain</option>
+		                    <option value="Sikh">Sikh</option>
+
             <option value="Inter-Religion">Inter-Religion</option> 
         </select>
       </div>
@@ -178,16 +176,9 @@ $(document).ready(function(){
     <div class="col-sm-7 form_radios">
       <div class="select-block1">
         <select name="mothertounge">
-            <option value="Malayalam">Malayalam</option>
             <option value="English">English</option>
-            <option value="French">French</option>
-            <option value="Telugu">Telugu</option>
-            <option value="Bengali">Bengali</option>
-            <option value="Bihari">Bihari</option>
             <option value="Hindi">Hindi</option>
-            <option value="Tamil">Tamil</option> 
-            <option value="Urdu">Urdu</option> 
-            <option value="Manipuri">Manipuri</option> 
+
         </select>
       </div>
     </div>

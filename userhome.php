@@ -14,7 +14,7 @@ if(isloggedin()){
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Find Your Perfect Partner - Makemylove
+<title>TraditionalMatrimony.com
  | User Home :: Make My Love
 </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -84,7 +84,7 @@ $(document).ready(function(){
 		        </ul>
 		</div>
    </div><!-- End of inner navigation -->
-   <div
+   <div>
   </div>
 </div>
 

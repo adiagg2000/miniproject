@@ -235,7 +235,7 @@ $sql = "INSERT
 	echo "Back to home";
 	echo "</a>";
 	//creating a slot for partner prefernce table for prefs details with cust id
-	$sql2="INSERT INTO partnerprefs (id, custId) VALUES('', '$id')";
+	$sql2="INSERT INTO partnerprefs (id, custId, agemin, agemax, maritalstatus, complexion, height, diet, religion, caste,subcaste,mothertounge, education, occupation, country, descr) VALUES(0, '$id', '0', 0, 'none','none',0,'none','none','none','none','none','none','none','none','none')";
 	mysqli_query($conn,$sql2);
 	$sql2="UPDATE TABLE users SET profilestat=1 WHERE id=$id";
 } else {

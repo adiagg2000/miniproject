@@ -79,7 +79,7 @@ if($result2){
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Find Your Perfect Partner - Makemylove
+<title>TraditionalMatrimony.com
  | View_profile :: Make My Love
 </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">

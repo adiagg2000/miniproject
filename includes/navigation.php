@@ -52,7 +52,6 @@
 		              <ul class="dropdown-menu" role="menu">
 		                <li><a href="search.php">Regular Search</a></li>
 		                <li><a href="search-id.php">Search By Profile ID</a></li>
-		                <li><a href="faq.php">Faq</a></li>
 		                
 		              </ul>
 		            </li>

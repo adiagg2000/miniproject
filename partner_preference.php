@@ -13,32 +13,6 @@ writepartnerprefs($id);
 
 ///reading partnerprefs from db
 
-		$sql="SELECT * FROM partnerprefs WHERE custId = $id";
-		$result=mysqlexec($sql);
-		if($result){
-			$row=mysqli_fetch_assoc($result);
-			$agemin=$row['agemin'];
-			$agemax=$row['agemax'];
-			$marital_status=$row['maritalstatus'];
-			$complexion=$row['complexion'];
-			$height=$row['height'];
-			$diet=$row['diet'];
-			$religion=$row['religion'];
-			$caste=$row['caste'];
-			$sub_caste=$row['subcaste'];
-			$mother_tounge=$row['mothertounge'];
-			$education=$row['education'];
-			$occupation=$row['occupation'];
-			$country=$row['country'];
-			$descr=$row['descr'];
-			
-		}
-		else{
-			echo mysqli_error($conn);
-		}
-
-
-
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -99,7 +73,7 @@ $(document).ready(function(){
 				  <div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
 				    <div class="tab_box">
 				    	<h1>My Ideal Partner would be</h1>
-				    	<p><textarea name="descr" rows="5" cols="150" Placeholder="Enter your message here"><?php echo $descr;?></textarea></p>
+				    	<p><textarea name="descr" rows="5" cols="150"><?php echo $descr;?></textarea></p>
 				    </div>
 				    <div class="basic_1-left">
 				    	  <table class="table_working_hours">
@@ -118,8 +92,8 @@ $(document).ready(function(){
 						                    <option value="<?php if($marital_status="Single"){echo "Single";} elseif ($marital_status="Married") {echo "Married";} else{echo "Divorced";}?>"><?php echo $marital_status;?></option>
 
 						                    <option value="Single">Single</option>
-						                    <option value="Married">Married</option> 
-						               		<option value="Divorsed">Divorsed</option>
+						                    <option value="Widowed">Widowed</option> 
+						               		<option value="Divorced">Divorsed</option>
 						                </select>
 						                </div>
 									</td>
@@ -128,10 +102,10 @@ $(document).ready(function(){
 									<td class="day_label">Complexion :</td>
 									<td class="day_value closed">
 									<div class="select-block1">
-						                <select name="colour">
-						                    <option value="">Black</option>
-						                    <option value="">Fair</option> 
-						               		<option value="">Normal</option> 
+						                <select name="complexion">
+						                    <option value="Black">Black</option>
+						                    <option value="Fair">Fair</option> 
+						               		<option value="Normal">Normal</option> 
 						                </select>
 								    </div>
 								    </td>
@@ -171,11 +145,16 @@ $(document).ready(function(){
 									<td class="day_value closed">
 									<div class="select-block1">
 	                    				<select name="caste">
-			                   				<option value="Roman Cathaolic">Roman Cathaolic</option>
-						                    <option value="Latin Catholic">Latin Catholic</option>
-						                    <option value="Penthecost">Penthecost</option>
-						                    <option value="Mappila">Mappila</option>
-						                    <option value="Thiyya">Thiyya</option>  
+															<option value="Brahmins">Brahmins</option>
+		                    <option value="Kshatriyas">Kshatriyas</option>
+		                    <option value="Vaishyas">Vaishyas</option>
+		                    <option value="Shudras">Shudras</option>
+		                    <option value="Digambar">Digambar</option> 
+												<option value="Shwetambar">Shwetambar</option>
+												<option value="Arora">Arora</option>
+												<option value="Khatri">Khatri</option>
+												<option value="Ramgarhia">Ramgarhia</option>
+												<option value="Jat">Jat</option> 
 					                    </select>
 		                 			</div></td>
 								</tr>
@@ -184,7 +163,6 @@ $(document).ready(function(){
 									<td class="day_value closed">
 									<div class="select-block1">
 						                <select name="mothertounge">
-						                    <option value="">Malayalam</option>
 						                    <option value="">Hindi</option> 
 						               		<option value="">English</option> 
 						                </select>
@@ -216,8 +194,6 @@ $(document).ready(function(){
 						                    <select name="country">
 							                    <option value="Not Applicable">Country</option>
 							                    <option value="Hindu">India</option>
-							                    <option value="Christian">China</option>
-							                    <option value="Muslim">UAE</option>
 						                    </select>
 						                 </div>
 						            </td>

@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Find Your Perfect Partner - Makemylove
+<title>TraditionalMatrimony.com
  | Register :: Make My Love
 </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -195,7 +195,7 @@ $(document).ready(function(){
 			      <label for="edit-pass">Religion <span class="form-required" title="This field is required.">*</span></label>
 			        <div class="age_grid">
 			         <div class="col-sm-4 form_box">
-	                  <div class="select-block1">
+							 <div class="select-block1">
 	                    <select name="religion">
 		                    <option value="Not Applicable">Not Applicable</option>
 		                    <option value="Hindu">Hindu</option>
@@ -211,11 +211,16 @@ $(document).ready(function(){
 	            <div class="col-sm-4 form_box2">
 	                   <div class="select-block1">
 	                    <select name="caste">
-		                    <option value="Roman Cathaolic">Roman Cathaolic</option>
-		                    <option value="Latin Catholic">Latin Catholic</option>
-		                    <option value="Penthecost">Penthecost</option>
-		                    <option value="Mappila">Mappila</option>
-		                    <option value="Thiyya">Thiyya</option>  
+											<option value="Brahmins">Brahmins</option>
+		                    <option value="Kshatriyas">Kshatriyas</option>
+		                    <option value="Vaishyas">Vaishyas</option>
+		                    <option value="Shudras">Shudras</option>
+		                    <option value="Digambar">Digambar</option> 
+												<option value="Shwetambar">Shwetambar</option>
+												<option value="Arora">Arora</option>
+												<option value="Khatri">Khatri</option>
+												<option value="Ramgarhia">Ramgarhia</option>
+												<option value="Jat">Jat</option> 
 	                    </select>
 	                  </div>
 	                 </div>
@@ -244,8 +249,6 @@ $(document).ready(function(){
 	                    <select name="country">
 		                    <option value="Not Applicable">Country</option>
 		                    <option value="India">India</option>
-		                    <option value="China">China</option>
-		                    <option value="UAE">UAE</option>
 		                    
 	                    </select>
 	                  </div>
@@ -254,22 +257,39 @@ $(document).ready(function(){
 	            <div class="col-sm-4 form_box2">
 	                   <div class="select-block1">
 	                    <select name="state">
-		                    <option value="">State</option>
+											<option value="">State</option>
 		                    <option value="Kerala">Kerala</option>
 		                    <option value="Taminadu">Tamilnadu</option>
 		                    <option value="Karnataka">Karnataka</option>
-		                    <option value="Andhrapradesh">Andrapradesh</option>  
+
+		                    <option value="Haryana">Haryana</option> 
+												<option value="Uttarpradesh">Uttarpradesh</option>
+												<option value="Punjab">Punjab</option>
+												<option value="Rajasthan">Rajasthan</option> 
+
 	                    </select>
 	                  </div>
 	                 </div>
 	                 <div class="col-sm-4 form_box1">
 	                   <div class="select-block1">
 	                    <select name="district">
-		                    <option value="">District</option>
+											<option value="">District</option>
 		                    <option value="Trivandrum">Trivandrum</option>
 		                    <option value="Kollam">Kollam</option>
 		                    <option value="Pathanamthitta">Pathanamthitta</option>
-		                    <option value="Wayanad">Wayanad</option>
+		                    <option value="Agra">Agra</option>
+												<option value="Allahabad">Allahabad</option>
+												<option value="Varanasi">Varanasi</option>
+												<option value="Faridabad">Faridabad</option>
+												<option value="Karnal">Karnal</option>
+												<option value="Hisar">Hisar</option>
+												<option value="Jaipur">Jaipur</option>
+												<option value="Kota">Kota</option>
+												<option value="Jodhpur">Jodhpur</option>
+												<option value="Hisar">Hisar</option>
+												<option value="Amritsar">Amritsar</option>
+												<option value="Patiala">Patiala</option>
+					
 	                    </select>
 	                   </div>
 	                  </div>
@@ -286,23 +306,6 @@ $(document).ready(function(){
 	                <select name="age">
 	                     <option value="">
 </option>
-		                    <option value="1">1</option>
-		                    <option value="2">2</option>
-		                    <option value="3">3</option>
-		                    <option value="4">4</option>
-		                    <option value="5">5</option>
-		                    <option value="6">6</option>
-		                    <option value="7">7</option>
-		                    <option value="8">8</option>
-		                    <option value="9">9</option>
-		                    <option value="10">10</option>
-		                    <option value="11">11</option>
-		                    <option value="12">12</option>
-		                    <option value="13">13</option>
-		                    <option value="14">14</option>
-		                    <option value="15">15</option>
-		                    <option value="16">16</option>
-		                    <option value="17">17</option>
 		                    <option value="18">18</option>
 		                    <option value="19">19</option>
 		                    <option value="20">20</option>
@@ -325,8 +328,8 @@ $(document).ready(function(){
 			    <div class="select-block1">
 	                <select name="maritalstatus">
 	                    <option value="Single">Single</option>
-	                    <option value="Married">Married</option> 
-	               		<option value="Divorsed">Divorsed</option>
+											<option value="Widowed">Widowed</option> 
+	               		<option value="Divorced">Divorced</option>
 	                </select>
 			    </div>
 		    </div>
@@ -404,7 +407,6 @@ $(document).ready(function(){
 		      <label for="edit-name">Mother Tounge<span class="form-required" title="This field is required.">*</span></label>
 			    <div class="select-block1">
 	                <select name="mothertounge">
-	                    <option value="Malayalam">Malayalam</option>
 	                    <option value="Hindi">Hindi</option> 
 	               		<option value="English">English</option> 
 	                </select>
@@ -416,7 +418,10 @@ $(document).ready(function(){
 	                <select name="bloodgroup">
 	                    <option value="O +ve">O +ve</option>
 	                    <option value="O -ve">O -ve</option> 
-	               		<option value="AB -ve">AB -ve</option> 
+	               		<option value="A -ve">A -ve</option> 
+										 <option value="A +ve">A +ve</option> 
+										 <option value="B -ve">B -ve</option> 
+										 <option value="B +ve">B +ve</option> 
 	                </select>
 			    </div>
 		    </div>
@@ -486,6 +491,7 @@ $(document).ready(function(){
 		      <label for="edit-name">No . Of sisters<span class="form-required" title="This field is required.">*</span></label>
 			    <div class="select-block1">
 	                <select name="sis">
+									<option value="0">0</option>
 	                    <option value="1">1</option>
 	                    <option value="2">2</option> 
 	                    <option value="3">3</option> 
@@ -498,6 +504,7 @@ $(document).ready(function(){
 		      <label for="edit-name">No . Of brothers<span class="form-required" title="This field is required.">*</span></label>
 			    <div class="select-block1">
 	                <select name="bros">
+									<option value="0">0</option>
 	                    <option value="1">1</option>
 	                    <option value="2">2</option> 
 	                    <option value="3">3</option> 

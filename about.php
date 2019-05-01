@@ -4,7 +4,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Find Your Perfect Partner - Makemylove | About :: Make My Love
+<title>TraditionalMatrimony.com | About :: Make My Love
 </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -55,7 +55,7 @@ $(document).ready(function(){
    	  </div>
    	  <div class="col-md-6 about_right">
    	  	<h1><b>About us</b></h1>
-				 <p>Welcome to Marital.com Every life has its own charm in each stage and a married life is no exception. Marriage is an institution, which initiates the authentic values of life. In India, a marriage is usually arranged by the family or Relatives of the bride or the groom within a known circle. But today~s nomad life has narrowed this choice and hence matrimonial bureaus and marriage websites lead a vital role. Marital.com is celebrated as the most Trusted Matrimony Brand combining tradition and technology.</p>
+				 <p>Welcome to TraditionalMatrimony.com Every life has its own charm in each stage and a married life is no exception. Marriage is an institution, which initiates the authentic values of life. In India, a marriage is usually arranged by the family or Relatives of the bride or the groom within a known circle. But today~s nomad life has narrowed this choice and hence matrimonial bureaus and marriage websites lead a vital role. Marital.com is celebrated as the most Trusted Matrimony Brand combining tradition and technology.</p>
    	  	<div class="accordation">
 		   <div class="jb-accordion-wrapper">
 				<div class="jb-accordion-title">
@@ -87,129 +87,26 @@ $(document).ready(function(){
 				<figure class="featured-thumbnail">
 					<img src="images/a1.jpg" class="img-responsive" alt=""/>
 				</figure>
-				<div><a href="#">Aenean nonummy hendrerit mau phasellu porta. Fusce suscipit varius mi sed. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui.…</a>
+				<div><a href="#">This is the place where I got my life partner. I am very happy in my life and wanted to thank this site for letting me find the perfect match for me.</a>
 				<div class="clearfix"></div>
 				</div>
 			</blockquote>
-		    <small class="testi-meta"><span class="user">Eiusmod tempor incididunt</span></small>
+		    <small class="testi-meta"><span class="user">Aaradhya</span></small>
 		</div>
 		<div class="col-sm-6 testi_grid list-item-1">
 			<blockquote class="testi_grid_blockquote">
 				<figure class="featured-thumbnail">
 					<img src="images/a2.jpg" class="img-responsive" alt=""/>
 				</figure>
-				<div><a href="#">Aenean nonummy hendrerit mau phasellu porta. Fusce suscipit varius mi sed. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui.…</a>
+				<div><a href="#">I am very thankful to the TraditionalMatrimony.com for finding the perfect match for me.</a>
 				<div class="clearfix"></div>
 				</div>
 			</blockquote>
-			<small class="testi-meta1"><span class="user">Sint occaecat </span></small>
+			<small class="testi-meta1"><span class="user">Akshat</span></small>
 		</div>
 		<div class="clearfix"> </div>
 	  </div>
-	  <div class="about_middle-grid2">
-		<div class="col-sm-6 testi_grid list-item-0">
-			<blockquote class="testi_grid_blockquote">
-				<figure class="featured-thumbnail">
-					<img src="images/a1.jpg" class="img-responsive" alt=""/>
-				</figure>
-				<div><a href="#">Aenean nonummy hendrerit mau phasellu porta. Fusce suscipit varius mi sed. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui.…</a>
-				<div class="clearfix"></div>
-				</div>
-			</blockquote>
-		    <small class="testi-meta"><span class="user">Eiusmod tempor incididunt</span></small>
-		</div>
-		<div class="col-sm-6 testi_grid list-item-1">
-			<blockquote class="testi_grid_blockquote">
-				<figure class="featured-thumbnail">
-					<img src="images/a2.jpg" class="img-responsive" alt=""/>
-				</figure>
-				<div><a href="#">Aenean nonummy hendrerit mau phasellu porta. Fusce suscipit varius mi sed. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui.…</a>
-				<div class="clearfix"></div>
-				</div>
-			</blockquote>
-			<small class="testi-meta1"><span class="user">Sint occaecat </span></small>
-		</div>
-		<div class="clearfix"> </div>
-	  </div>
-	</div>
 </div>
-<div class="about_bottom">
-	<div class="container">
-		<h3>Team</h3>
-	   <div class="col-md-3 about_grid1">
-		  <ul class="posts-grid our-team">
-			<li class="list-item-1">
-				<figure class="thumbnail_1 thumbnail">
-					<a href="#"><img src="images/a4.jpg"  class="img-responsive" alt=""/></a>
-					<div class="post_networks">
-						<ul>
-							<li class="network_0"><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
-						</ul>
-					</div>
-			    </figure>
-			    <div class="desc">
-			    	<h4><a href="#">Perspiciatis</a></h4>
-			    	<p>Lorem ipsum dolor sit amet,</p>
-			    </div>
-			 </li>
-	       </ul>
-	   </div>
-	   <div class="col-md-3 about_grid1">
-		  <ul class="posts-grid our-team">
-			<li class="list-item-1">
-				<figure class="thumbnail_1 thumbnail">
-					<a href="#"><img src="images/a5.jpg"  class="img-responsive" alt=""/></a>
-					<div class="post_networks">
-						<ul>
-							<li class="network_0"><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
-						</ul>
-					</div>
-			    </figure>
-			    <div class="desc">
-			    	<h4><a href="#">Aspernatur </a></h4>
-			    	<p>Lorem ipsum dolor sit amet,</p>
-			    </div>
-			 </li>
-	       </ul>
-	   </div>
-	   <div class="col-md-3 about_grid1">
-		  <ul class="posts-grid our-team">
-			<li class="list-item-1">
-				<figure class="thumbnail_1 thumbnail">
-					<a href="#"><img src="images/a6.jpg"  class="img-responsive" alt=""/></a>
-					<div class="post_networks">
-						<ul>
-							<li class="network_0"><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
-						</ul>
-					</div>
-			    </figure>
-			    <div class="desc">
-			    	<h4><a href="#">Temporibus</a></h4>
-			    	<p>Lorem ipsum dolor sit amet,</p>
-			    </div>
-			 </li>
-	       </ul>
-	   </div>
-	   <div class="col-md-3 about_grid1">
-		  <ul class="posts-grid our-team">
-			<li class="list-item-1">
-				<figure class="thumbnail_1 thumbnail">
-					<a href="#"><img src="images/a7.jpg"  class="img-responsive" alt=""/></a>
-					<div class="post_networks">
-						<ul>
-							<li class="network_0"><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
-						</ul>
-					</div>
-			    </figure>
-			    <div class="desc">
-			    	<h4><a href="#">Serferendis</a></h4>
-			    	<p>Lorem ipsum dolor sit amet,</p>
-			    </div>
-			 </li>
-	       </ul>
-	   </div>
-	   <div class="clearfix"> </div>
-	</div>
 </div>
 
 
