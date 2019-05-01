@@ -228,6 +228,12 @@ $sql = "INSERT
 				 (NULL,'$id','$email', '$age', '$sex', '$religion', '$caste', '$subcaste', '$district', '$state', '$country', '$maritalstatus', '$profileby', '$education', '$edudescr', '$fname', '$lname', '$bodytype', '$physicalstatus', '$drink', '$mothertounge', '$colour', '$weight', '$height', '$bloodgroup', '$diet', '$smoke', '$dob', '$occupation', '$occupationdescr', '$income', '$fatheroccupation', '$motheroccupation', '$bros', '$sis', '$aboutme', CURDATE())
 		";
 		 $result=mysqlexec($sql);
+		 $sql1="INSERT INTO 
+	partnerprefs 
+	( custId, agemin, agemax, maritalstatus, complexion, height, diet, religion, caste,subcaste,mothertounge, education, occupation, country, descr)
+	 VALUES
+	 ( '$id', '0', 0, 'none','none',0,'none','none','none','none','none','none','none','none','none')";
+	$result = mysqlexec($sql1);
  //mysqli_query($conn,$sql)
  if ($result) {
 	echo "Successfully Created profile";
@@ -235,8 +241,7 @@ $sql = "INSERT
 	echo "Back to home";
 	echo "</a>";
 	//creating a slot for partner prefernce table for prefs details with cust id
-	$sql2="INSERT INTO partnerprefs (id, custId, agemin, agemax, maritalstatus, complexion, height, diet, religion, caste,subcaste,mothertounge, education, occupation, country, descr) VALUES(0, '$id', '0', 0, 'none','none',0,'none','none','none','none','none','none','none','none','none')";
-	mysqli_query($conn,$sql2);
+	//mysqli_query($conn,$sql2);
 	$sql2="UPDATE TABLE users SET profilestat=1 WHERE id=$id";
 } else {
 	echo "Error: " . $sql . "<br>" . $conn->error;

@@ -170,7 +170,7 @@ $(document).ready(function(){
 				            <input type="radio" name="gender" value="male" checked> Male
 				        </label>
 				        <label for="radio-02" class="label_radio">
-				            <input type="radio" name="gender" value="female"> Female
+				            <input type="radio" name="gender" value="fem"> Female
 				        </label>
 	                </div>
                 </div>
