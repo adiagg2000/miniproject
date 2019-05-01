@@ -1,6 +1,7 @@
 <?php include_once("includes/basic_includes.php");?>
 <?php include_once("functions.php"); ?>
 <?php
+
 if(isloggedin()){
  header("location:logg.php");
 } else{
@@ -67,7 +68,9 @@ $(document).ready(function(){
 		<div class="col-sm-7 form_radios">
 		  <div class="input-group1">
 	        <input type="text" value="" id="profid" name="profid" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
-	        <input type="button" onclick="viewprofile();"  value="search">
+	        <input type="button" onclick="viewprofile();"  value="sear">
+          <input type="button" onclick="viewprofile();"  value="DElete">
+         
           <script type="text/javascript">
             function viewprofile(){
               var profid=document.getElementById("profid").value;
@@ -75,12 +78,14 @@ $(document).ready(function(){
             }
           </script>
 	      </div>
+       
 	    </div>
 		<div class="clearfix"> </div>
 	 </div>
     </form>
  <div class="paid_people">
    <h1>Profiles</h1>
+   <input type="button" onclick="viewprofile();"  value="DElete">
    <div class="row_1">
 <?php
   //only start display profiles if and only if search is triggered

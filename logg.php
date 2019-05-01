@@ -39,6 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <link href='//fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet"> 
 <!--font-Awesome-->
 <link href="css/font-awesome.css" rel="stylesheet"> 
 <!--font-Awesome-->
@@ -62,25 +63,35 @@ $(document).ready(function(){
 <?php include_once("includes/navigation.php");?>
 <!-- ============================  Navigation End ============================ -->
 
-<div id="page">
+<div id="page" style= "padding-left: 300px">
     <!-- [banner] -->
-    <div class="breadcrumb1">
+    <div class="breadcrumb1" style= "padding-left: 100px">
      <ul>
-        <a href="index.php"><i class="fa fa-home home_1"></i></a>
+     <br>
+        <br>
+        <a href="index.php"><i class="fa fa-home fa-lg"></i></a>
         <span class="divider">&nbsp;|&nbsp;</span>
-        <li class="current-page">Login</li>
+        <li class="current-page" style="font-size:50px; font-family: 'Wendy One', sans-serif;">Login</li>
+        <br>
+        <br>
      </ul>
    </div>
     <!-- [content] -->
-    <section id="content">
-        <form id="login" method="post">
-            <label for="username">Username:</label>
-            <input id="username" name="username" type="text" required>
-            <label for="password">Password:</label>
-            <input id="password" name="password" type="password" required>                    
-            <br />
-            <input type="submit" value="Login">
+    <section id="content" style= "padding-left: 100px">
+    <div class="col-sm-6 login_center">
+    <form id="login" method="post">
+  	    <div class="form-item form-type-textfield form-item-name">
+	      <label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+	      <input type="text" id="edit-name" name="username" value="" size="60" maxlength="60" class="form-text required">
+	    </div>
+	    <div class="form-item form-type-password form-item-pass">
+	      <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+	      <input type="password" id="edit-pass" name="password" size="60" maxlength="128" class="form-text required">
+	    </div>
+        <input type="submit" value="Login">
+           
         </form>
+        </div>
     </section>
     <!-- [/content] -->
     

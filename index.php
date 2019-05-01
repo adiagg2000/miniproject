@@ -172,7 +172,7 @@ $(document).ready(function(){
     		</div>
     		<div class="clearfix"> </div>
     		<div class="copy">
-			  <p>Designed by 
+			  <p>Designed with
 			  <div class="heart-divider">
 				<span class="grey-line"></span>
 				<i class="fa fa-heart pink-heart"></i>

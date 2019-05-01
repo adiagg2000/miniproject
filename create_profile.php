@@ -69,7 +69,7 @@ $(document).ready(function(){
 	     <form action="" method="POST">
 	  	    <div class="form-group col-sm-6">
 		      <label for="edit-name">First Name <span class="form-required" title="This field is required.">*</span></label>
-		      <input type="text" id="edit-name" name="fname" value="" size="60" maxlength="60" class="form-text required" >
+		      <input type="text" id="edit-name" name="fname" value="" size="60" placeholder="" maxlength="60" class="form-text required" >
 		    </div>
 		    <div class="form-group col-sm-4">
 		      <label for="edit-pass">Last Name <span class="form-required" title="This field is required.">*</span></label>

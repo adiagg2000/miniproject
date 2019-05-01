@@ -177,6 +177,10 @@ $(document).ready(function(){
 							<td class="day_label">Education :</td>
 							<td class="day_value closed"><span><?php echo $education;?></span></td>
 						</tr>
+						<tr class="closed">
+							<td class="day_label">Email :</td>
+							<td class="day_value closed"><span><?php echo $email;?></span></td>
+						</tr>
 				    </tbody>
 				</table>
 				</div>
@@ -423,10 +427,6 @@ $descr=$row['descr'];
 									<td class="day_value closed"><span><?php echo $caste;?></span></td>
 								</tr>
 								<tr class="opened">
-									<td class="day_label">Mother Tongue :</td>
-									<td class="day_value closed"><span><?php echo $mothertounge;?></span></td>
-								</tr>
-								<tr class="opened">
 									<td class="day_label">Education :</td>
 									<td class="day_value closed"><span><?php echo $education;?></span></td>
 								</tr>
@@ -462,13 +462,13 @@ $descr=$row['descr'];
         <div class="view_profile view_profile2">
         	<h3>View Recent Profiles</h3>
     <?php
-     $sql="SELECT * FROM customer ORDER BY profilecreationdate ASC";
+     $sql="SELECT * FROM customer where cust_id!='$profileid' ORDER BY profilecreationdate ASC";
       $result=mysqlexec($sql);
       $count=1;
       while($row=mysqli_fetch_assoc($result)){
             $profid=$row['cust_id'];
           //getting photo
-          $sql="SELECT * FROM photos WHERE cust_id=$profid";
+          $sql="SELECT * FROM photos WHERE cust_id=$profid " ;
           $result2=mysqlexec($sql);
           $photo=mysqli_fetch_assoc($result2);
           $pic=$photo['pic1'];

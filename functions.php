@@ -249,6 +249,7 @@ $sql = "INSERT
 }
  
 }
+
 //function for upload photo
 function uploadphoto($id){
 $target = "profile/". $id ."/";

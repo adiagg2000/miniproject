@@ -42,10 +42,10 @@ $(document).ready(function(){
   <div class="container">
    <div class="breadcrumb1">
      <ul>
-        <a href="index.php"><i class="fa fa-home home_1"></i></a>
+		 <a href="index.php"><i class="fa fa-home fa-lg"></i></a>
         <span class="divider">&nbsp;|&nbsp;</span>
-        <li class="current-page">Login</li>
-     </ul>
+        <li class="current-page" style="font-size:30px; font-family: 'Wendy One', sans-serif;">Login</li>
+         </ul>
    </div>
    <div class="services">
    	  <div class="col-sm-6 login_left">

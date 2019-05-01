@@ -73,7 +73,9 @@ $(document).ready(function(){
               var profid=document.getElementById("profid").value;
               window.location.href="view_profile.php?id="+profid;
             }
+           
           </script>
+ 
 	      </div>
 	    </div>
 		<div class="clearfix"> </div>
